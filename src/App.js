@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbar />
       <Router>
-        <Route path='/' exact component={Home} />
+        <Route path='/' exact component={Home}  />
         <Route path='/quiz/:quizID' exact component={Quiz} />
       </Router>
       <Footer/>
